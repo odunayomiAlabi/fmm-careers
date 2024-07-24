@@ -107,13 +107,11 @@ export const MissionStyle = styled.div`
       background: ${FMMTheme.colors.teal_50};
       color: #008080;
       text-align: center;
-
-      /* Aeonik/16px: Medium */
       font-family: Aeonik;
       font-size: 16px;
       font-style: normal;
       font-weight: 500;
-      line-height: 24px; /* 150% */
+      line-height: 24px; 
     }
   }
   .top {
@@ -130,8 +128,6 @@ export const OurValuesStyle = styled.div`
   width: 100vw;
   height: 100vh;
   padding: 80px 80px;
-  /* justify-content: center;
-  align-items: center; */
   background: #f4f4f4;
 
   .valuesWrapper {
